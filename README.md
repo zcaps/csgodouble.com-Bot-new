@@ -3,10 +3,7 @@ csgodouble.com bot read code and use it!
 
 Copy from here:
 
-//How to run it
-//Copy this all code
-//Go to www.csgodouble.com login then press Ctrl + shift + J, then in console Ctrl + V and press Enter
-//Good luck
+//How to run it, copy this all code, Go to www.csgodouble.com login then press Ctrl + shift + J, then in console Ctrl + V and press Enter
 
 'use strict';
 
