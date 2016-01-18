@@ -1,7 +1,7 @@
 # csgodouble.com Bot new
 csgodouble.com bot read code and use it!
 
-COPY CODE FROM HERE!!!:
+COPY CODE FROM HERE!!!(from 6 line to 623 line):
 
 //How to run it, copy this all code, Go to www.csgodouble.com login then press Ctrl + shift + J, then in console Ctrl + V and press Enter
 
@@ -212,15 +212,16 @@ function Automated() {
     }
 
     this.menu.start.onclick = function() {
-        start(self.balance);
-        self.log('start');
-    };
+		self.start();
+	};
 
     this.menu.stop.onclick = function() {
+		start(self.balance);
         self.stop();
     };
 
     this.menu.abort.onclick = function() {
+		start(self.balance);
         self.stop(true);
     };
 
