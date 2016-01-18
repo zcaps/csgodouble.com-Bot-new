@@ -210,15 +210,16 @@ function Automated() {
     }
 
     this.menu.start.onclick = function() {
-        start(self.balance);
-        self.log('start');
-    };
+		self.start();
+	};
 
     this.menu.stop.onclick = function() {
+		start(self.balance);
         self.stop();
     };
 
     this.menu.abort.onclick = function() {
+		start(self.balance);
         self.stop(true);
     };
 
